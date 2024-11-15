@@ -1,0 +1,8 @@
+¿Qué ventajas y desventajas tiene la ejecución de programas de manera síncrona versus asíncrona?
+Los programas síncronos tienes la ventaja de ser códigos mas simples y predecibles ya que se ejecuta en el orden como se inicia. Tienen la desventaja de que si una operación tarda mucho tiempo se bloquea el programa, y no se pueden manejar solicitudes simultaneas
+Los programas asíncronos tienen una mejor carga y respuesta rápida por el uso de múltiples hilos, además de que pueden manejar a más usuarios. Tienen la desventaja de que son mas complejos de entender y usar.
+¿Por qué es importante manejar las excepciones al trabajar con procesos?
+Evitan fallos inesperados, garantizan un sistema mas robusto, nos dan un diagnóstico de la excepción que se ha producido y mejora la experiencia de usuario.
+¿Qué tipo de problemas se pueden presentar al comunicarse entre procesos? ¿Cómo los has solucionado?
+Perdida de datos, solución implementar colas para los datos, latencias largas porque se quede esperando un proceso, solución usar timeouts, condiciones de carrera, solución usar locks.
+
